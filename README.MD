@@ -11,22 +11,20 @@
 ---
 ### Install:
 ```bash
-`not completed`
 npm i
 ```
 ### Run:
-```bash
-`not completed`
-```
+run index.html
 ---
 ### Starter cmd:
 ```bash
 npm init -y
 echo "node_modules/" > .gitignore
+echo "dist/" >> .gitignore
 npm i axios
 npm i gh-pages -D
-mkdir src styles
-touch index.html src/index.js styles/style.css 
+mkdir src src/styles src/scripts
+touch src/index.html src/scripts/index.js src/styles/style.css 
 ```
 
 ### Constructor:
