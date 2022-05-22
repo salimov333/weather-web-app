@@ -1,6 +1,5 @@
 # Weather-web-app
 - `JavaScript` 
-- `Node.js`
 - `HTML`
 - `CSS`
 ## Use the weather API to create a weather web-app that gets the weather based on a city name.
