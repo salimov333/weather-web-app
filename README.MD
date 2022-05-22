@@ -35,7 +35,7 @@ touch index.html src/index.js styles/style.css
 "script":{
     "build": "rm dist -rf && mkdir dist && cp -r src/* dist",
     "publish": "gh-pages -d dist",
-    "deploy": "npm-run-all build publish"
+    "deploy": "npm run build & npm run publish"
 }
 ```
 #### deploy
