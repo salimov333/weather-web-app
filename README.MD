@@ -14,7 +14,7 @@
 npm i
 ```
 ### Run:
-run index.html
+> run index.html using live-server
 ---
 ### Starter cmd:
 ```bash
