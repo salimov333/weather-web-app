@@ -35,7 +35,7 @@ function getWeather() {
 
     //Weather API
     const API_KEY = "5fe8d9f6fdc543a38b673009221905";
-    const baseURL = "http://api.weatherapi.com/v1";
+    const baseURL = "https://api.weatherapi.com/v1";
     const endPoint = `${baseURL}/current.json?key=${API_KEY}&q=${cityName}`;
 
     axios
