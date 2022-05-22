@@ -28,7 +28,7 @@ function getWeather() {
     //console.log("cityName = ", cityName);
     if (!cityName) {
         //console.log("Enter a city name");
-        city.placeholder = "Enter s valid City name!"
+        city.placeholder = "Enter a valid City name!"
         return;
     }
     cityName = city.value;
@@ -42,7 +42,7 @@ function getWeather() {
         .get(endPoint)
         .then((res) => {
             const data = res.data;
-            console.log(data);
+            //console.log(data);
             const img = document.getElementById("img");
             const src = data.current.condition.icon;
             img.setAttribute("src", src);
