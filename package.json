@@ -1,0 +1,15 @@
+{
+  "name": "weather-web-app",
+  "version": "1.0.0",
+  "description": "Using the weather API to create a weather web-app that gets the weather based on a city name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Salem",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

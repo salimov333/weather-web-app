@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(54, 50, 58);
+    color: rgb(193, 189, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weather {
+    background-color: transparent;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 4px rgb(235, 220, 220);
+    width: 40rem;
+    margin: 5rem auto;
+}
+
+.weather h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(121, 244, 203);
+}
+
+.weather form {
+    background-color: rgb(41, 48, 116);
+    padding: 2rem;
+    color: rgb(231, 249, 187);
+}
+
+.weather, .weather>form {
+    border-radius: 10px;
+}
+
+#btn {
+    color: rgb(173, 251, 225);
+    cursor: pointer;
+    background-color: rgb(37, 18, 57);
+}
+
+#city {
+    padding: 10px;
+    margin: 0 1rem 0 .5rem;
+    background-color: rgb(238, 238, 229);
+}
+
+#city::placeholder {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(158, 108, 108);
+}
+
+#btn, #city {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+#result{
+    font-size: 1.2rem;
+    text-shadow: rgb(154, 163, 197) 1px 1px 20px;
+    line-height: 1.4;
+}
