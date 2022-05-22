@@ -34,10 +34,11 @@ touch index.html src/index.js styles/style.css
 ```JSON
 "script":{
     "build": "rm dist -rf && mkdir dist && cp -r src/* dist",
-    "publish": "gh-pages -d dist"
+    "publish": "gh-pages -d dist",
+    "deploy": "npm-run-all build publish"
 }
 ```
 #### deploy
 ```bash
-npm-run-all build publish
+npm run deploy
 ```

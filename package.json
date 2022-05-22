@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm dist -rf && mkdir dist && cp -r src/* dist",
-    "publish": "gh-pages -d dist"
+    "publish": "gh-pages -d dist",
+    "deploy": "npm-run-all build publish"
   },
   "keywords": [],
   "author": "Salem",
