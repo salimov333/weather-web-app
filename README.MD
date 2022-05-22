@@ -24,6 +24,7 @@ npm i
 npm init -y
 echo "node_modules/" > .gitignore
 npm i axios
+npm i gh-pages -D
 mkdir src styles
 touch index.html src/index.js styles/style.css 
 ```
@@ -32,6 +33,11 @@ touch index.html src/index.js styles/style.css
 #### package.json
 ```JSON
 "script":{
-    `not completed`
+    "build": "rm dist -rf && mkdir dist && cp -r src/* dist",
+    "publish": "gh-pages -d dist"
 }
+```
+#### deploy
+```bash
+npm-run-all build publish
 ```

@@ -52,14 +52,16 @@ function getWeather() {
             const condition = res.data.current.condition.text;
             const wind_kph = res.data.current.wind_kph;
             const lastUpdated = res.data.current.last_updated;
-            const hour = `${new Date(lastUpdated).getHours()}:${new Date(
-                lastUpdated
-            ).getMinutes()}`;
-            const resultText = `The weather today in ${name}/${country} at ${hour} is ${condition}. The temperature is ${temp_c}°C and the wind speed is ${wind_kph} km/h.`;
+            const time = lastUpdated.split(" ").pop();            
+            const resultText = `The weather today in ${name}/${country} at ${time} is ${condition}. The temperature is ${temp_c}°C and the wind speed is ${wind_kph} km/h.`;
             console.log(resultText);
             resultDiv.innerHTML = resultText;
             city.value = "";
             city.focus();
+            city.placeholder = "";
         })
-        .catch((err) => console.log(err));
+        .catch((err) => {
+            console.log(err);
+            alert("Enter a valid city name");
+        })
 };

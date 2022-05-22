@@ -4,12 +4,17 @@
   "description": "Using the weather API to create a weather web-app that gets the weather based on a city name.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm dist -rf && mkdir dist && cp -r src/* dist",
+    "publish": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Salem",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
