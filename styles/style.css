@@ -34,7 +34,8 @@ body {
     padding: 2rem;
     color: rgb(231, 249, 187);
 }
-.weather form>div{
+
+.weather form>div {
     width: 90%;
     min-height: 5rem;
 }
@@ -59,17 +60,20 @@ body {
     margin: 0 1rem 0 .5rem;
     background-color: rgb(238, 238, 229);
 }
-#img{
+
+#img {
     box-shadow: 2px 2px 10px rgb(239, 234, 234);
     border-radius: 50%;
     width: 50px;
 }
+
 #city::placeholder {
     font-size: 0.8rem;
     font-weight: bold;
     color: rgb(158, 108, 108);
 }
-#city:focus{
+
+#city:focus {
     outline: 1px solid rgb(199, 217, 171);
 }
 
@@ -79,9 +83,30 @@ body {
     outline: none;
     border: none;
 }
-#result{
+
+#result {
     margin: auto;
     font-size: 1.2rem;
     text-shadow: rgb(154, 163, 197) 1px 1px 20px;
     line-height: 1.4;
+}
+
+@media screen and (min-width:1400px) {
+    .weather h1 {
+        font-size: 2rem;
+    }
+
+    .weather, .weather>form {
+        width: 100%;
+        display: block;
+    }
+
+    #city {
+        width: auto;
+    }
+    .weather form>div {
+        margin-top: 2rem;
+        width: 100%;
+        min-height: 5rem;
+    }
 }
