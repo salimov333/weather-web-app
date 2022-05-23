@@ -1,8 +1,10 @@
 # Weather-web-app
+
 - `JavaScript` 
 - `HTML`
 - `CSS`
 ## Use the weather API to create a weather web-app that gets the weather based on a city name.
+### [APP-Link](https://salimov333.github.io/weather-web-app/)
 ---
 ### Resources:
 #### [weather api](https://www.weatherapi.com/)

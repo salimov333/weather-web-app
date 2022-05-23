@@ -29,9 +29,10 @@ function getWeather() {
     if (!cityName) {
         //console.log("Enter a city name");
         city.placeholder = "Enter a valid City name!"
+        city.focus();
         return;
     }
-    cityName = city.value;
+    //cityName = city.value;
 
     //Weather API
     const API_KEY = "5fe8d9f6fdc543a38b673009221905";
