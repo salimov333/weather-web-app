@@ -6,6 +6,10 @@
 ## Use the weather API to create a weather web-app that gets the weather based on a city name.
 ### [APP-Link](https://salimov333.github.io/weather-web-app/)
 ---
+<img src="./src/images/mobile.png" alt="mobile-img" title="mobile" width="250" height="350" />\
+<img src="./src/images/tablet.png" alt="tablet-img" title="tablet" width="400" height="300" />\
+<img src="./src/images/desktop.png" alt="desktop-img" title="desktop" width="500" height="250" /> 
+---
 ### Resources:
 #### [weather api](https://www.weatherapi.com/)
 #### [axios documentation](https://www.npmjs.com/package/axios)
@@ -24,7 +28,7 @@ echo "node_modules/" > .gitignore
 echo "dist/" >> .gitignore
 npm i axios
 npm i gh-pages -D
-mkdir src src/styles src/scripts
+mkdir src src/styles src/scripts src/images
 touch src/index.html src/scripts/index.js src/styles/style.css 
 ```
 
