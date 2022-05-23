@@ -5,10 +5,11 @@
 - `CSS`
 ## Use the weather API to create a weather web-app that gets the weather based on a city name.
 ### [APP-Link](https://salimov333.github.io/weather-web-app/)
----
-<img src="./src/images/mobile.png" alt="mobile-img" title="mobile" width="250" height="350" />\
-<img src="./src/images/tablet.png" alt="tablet-img" title="tablet" width="400" height="300" />\
-<img src="./src/images/desktop.png" alt="desktop-img" title="desktop" width="500" height="250" /> 
+--- 
+![mobile-img](./src/images/mobile.png "mobile")
+![tablet-img](./src/images/tablet.png "tablet")
+![desktop-img](./src/images/desktop.png "desktop")
+
 ---
 ### Resources:
 #### [weather api](https://www.weatherapi.com/)
